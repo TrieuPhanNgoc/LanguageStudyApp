@@ -5,12 +5,15 @@ find_package(wxWidgets REQUIRED COMPONENTS core base)
 
 include(${wxWidgets_USE_FILE})
 
+include_directories(resource)
+
 add_executable(korean_study_app 
         # main.cpp 
         dataset.h dataset.cpp 
         UIApplication.h UIApplication.cpp
         Frame.h Frame.cpp
         FunctionalController.h FunctionalController.cpp
+        Image.h Image.cpp
         )
 
 add_compile_options(korean_study_app -std=C++11 -Wall)
