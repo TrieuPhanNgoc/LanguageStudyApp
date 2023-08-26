@@ -1,6 +1,7 @@
 #include "FunctionalController.h"
 #include "UIApplication.h"
 
+wxIMPLEMENT()
 int main(int argc, char *argv[]) {
     // FunctionalCtrl controller;
     // controller.run();
